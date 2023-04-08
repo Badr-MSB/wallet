@@ -1,0 +1,44 @@
+/* Define the styles for the header element */
+.header {
+    background-color: #333;
+    /* dark gray */
+    color: #fff;
+    /* white text */
+    padding: 10px;
+}
+
+/* Define the styles for the logo or site title */
+.header .logo {
+    color: #fff;
+    /* white text */
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Define the styles for the navigation links */
+.header nav {
+    display: inline-block;
+}
+
+.header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav li {
+    display: inline-block;
+}
+
+header nav a {
+    color: #fff;
+    /* white text */
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    background-color: #666;
+    /* darker gray on hover */
+}
