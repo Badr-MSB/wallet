@@ -11,7 +11,7 @@ import { arbitrum, mainnet, polygon, polygonMumbai } from 'wagmi/chains'
 import './App.css';
 
 function App() {
-  const chains = [arbitrum, mainnet, polygon, polygonMumbai]
+  const chains = [polygonMumbai]
   const projectId = '6d7dbea1a959b6186fc5585ff8b1c51b'
 
   const { provider } = configureChains(chains, [w3mProvider({ projectId })])
@@ -25,7 +25,7 @@ function App() {
     <div className="App">
       <WagmiConfig client={wagmiClient}>
         <Header />
-        <Body/>
+        <Body />
         <Footer />
       </WagmiConfig>
       <Web3Modal projectId={projectId} ethereumClient={ethereumClient} />
