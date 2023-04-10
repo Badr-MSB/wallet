@@ -1,11 +1,12 @@
 import React from 'react'
-
 import Mint from '../../Assets/Mint/Mint'
+
+import './Body.css'
 
 function Body() {
     return (
-        <div>
-            <Mint/>
+        <div className='container'>
+            <Mint />
         </div>
     )
 }

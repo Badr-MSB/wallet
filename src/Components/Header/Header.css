@@ -1,19 +1,20 @@
 /* Define the styles for the header element */
 .header {
-    background-color: #333;
+    background-color: #1c1c1c ;
     /* dark gray */
     color: #fff;
     /* white text */
     padding: 10px;
+    height: 150px;
 }
 
 /* Define the styles for the logo or site title */
 .header .logo {
-    color: #fff;
-    /* white text */
-    font-size: 24px;
-    font-weight: bold;
-}
+    display: block; /* Set the logo to display as a block element */
+    max-width: 100%; /* Set the maximum width of the logo */
+    height: auto; /* Set the height of the logo to adjust automatically based on its width */
+    margin: 0 auto; /* Center the logo horizontally */
+  }
 
 /* Define the styles for the navigation links */
 .header nav {
